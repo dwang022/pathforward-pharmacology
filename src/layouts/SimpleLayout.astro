@@ -1,0 +1,16 @@
+---
+import Hero from "../components/Hero.astro";
+import BaseLayout from "./BaseLayout.astro";
+
+const { frontmatter } = Astro.props;
+---
+
+<BaseLayout title={`UCLA DataRes | ${frontmatter.title}`}>
+  <Hero>
+    <h1>{frontmatter.title}</h1>
+    {frontmatter.subtitle ? <p>{frontmatter.subtitle}</p> : null}
+  </Hero>
+  <div class="prose mx-auto max-w-prose my-10">
+    <slot />
+  </div>
+</BaseLayout>

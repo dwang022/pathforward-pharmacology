@@ -1,0 +1,50 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Hero from "../components/Hero.astro";
+import Card from "../components/Card.astro";
+---
+
+<BaseLayout title="UCLA DataRes">
+  <div>
+    <Hero>
+      <h1>Welcome to the home of Data Science at UCLA</h1>
+      <p>
+        At DataRes, we solve problems and craft stories with data. We provide a
+        platform for aspiring data scientists and analysts to collaborate on
+        impactful data projects. If you love playing with data, creating
+        powerful visualizations, or building predictive models, you have a home
+        at DataRes.
+      </p>
+    </Hero>
+    <div class="mx-auto max-w-6xl my-10 py-10" id="branches">
+      <h1 class="text-center font-extrabold text-4xl mb-10">Branches</h1>
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-20 my-10">
+        <Card image="/assets/images/datablog.svg" href="/teams/datablog">
+          <div class="text-xl font-bold mb-2">Data Blog</div>
+          <p class="text-grey-700 text-base">Creating data-backed narratives</p>
+        </Card>
+        <Card image="/assets/images/research.svg" href="/teams/research">
+          <div class="text-xl font-bold mb-2">Research</div>
+          <p class="text-grey-700 text-base">Pushing the limits of machine learning</p>
+        </Card>
+        <Card image="/assets/images/consulting.svg" href="/teams/consulting">
+          <div class="text-xl font-bold mb-2">Consulting</div>
+          <p class="text-grey-700 text-base">Developing data-driven solutions</p>
+        </Card>
+        <Card image="/assets/images/athletics.svg" href="/teams/athletics">
+          <div class="text-xl font-bold mb-2">UCLA Athletics</div>
+          <p class="text-grey-700 text-base">Providing next-gen sports analytics</p>
+        </Card>
+      </div>
+    </div>
+    <Hero>
+      <p>Want to stay up to date with all the latest DataRes news?</p>
+      <a
+        class="bg-slate-800 hover:bg-slate-900 text-white py-2 px-4 rounded no-underline"
+        href="https://ucladatares.us14.list-manage.com/subscribe?u=d8a2e69c43a898058be10fcdb&id=f153c9e211"
+      >
+        Join our Mailing List!
+    </a>
+    </Hero>
+  </div>
+</BaseLayout>
