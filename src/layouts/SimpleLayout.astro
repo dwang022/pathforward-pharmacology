@@ -10,7 +10,9 @@ const { frontmatter } = Astro.props;
     <h1>{frontmatter.title}</h1>
     {frontmatter.subtitle ? <p>{frontmatter.subtitle}</p> : null}
   </Hero>
-  <div class={`prose ${frontmatter.max_w} px-10 mx-auto my-10 ${frontmatter.centered ? "prose-headings:text-center" : ""}`}>
-    <slot />
+  <div class="px-10">
+    <div class={`prose ${frontmatter.max_w} mx-auto my-10 ${frontmatter.centered ? "prose-headings:text-center" : ""}`}>
+      <slot />
+    </div>
   </div>
 </BaseLayout>
