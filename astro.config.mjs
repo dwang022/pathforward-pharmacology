@@ -10,6 +10,11 @@ import mdx from "@astrojs/mdx";
 import prefetch from "@astrojs/prefetch";
 
 // https://astro.build/config
+import image from "@astrojs/image";
+
+// https://astro.build/config
 export default defineConfig({
-  integrations: [tailwind(), mdx(), prefetch()]
+  integrations: [tailwind(), mdx(), prefetch(), image({
+    serviceEntryPoint: "@astrojs/image/sharp"
+  })]
 });
