@@ -8,14 +8,14 @@ interface Props {
 ---
 
 <a
-  class="mx-auto w-64 block lg:w-full lg:h-64 lg:flex lg:items-center no-underline hover:bg-slate-50 rounded-lg"
+  class="mx-auto w-64 block lg:h-64 lg:w-96 lg:inline-flex lg:items-center no-underline hover:bg-slate-50 rounded-lg"
   href={Astro.props.href}
 >
   {
     Astro.props.image ?
       typeof Astro.props.image === 'string'  ?
-        <img class="w-full lg:px-6 lg:my-auto lg:h-48 lg:w-auto" src={Astro.props.image} /> :
-        <Image class="w-full lg:px-6 lg:my-auto lg:h-48 lg:w-auto" src={Astro.props.image} alt="" /> :
+        <img class="w-full lg:px-6 lg:my-auto lg:h-auto lg:w-48" src={Astro.props.image} /> :
+        <Image class="w-full lg:px-6 lg:my-auto lg:h-auto lg:w-48" src={Astro.props.image} alt="" /> :
       null
   }
   <div class={`px-6 py-4 ${Astro.props.prose ? 'prose prose-h1:text-xl' : ''}`}>

@@ -6,7 +6,7 @@ subtitle: DataRes is UCLA's first and largest student organization dedicated to 
 
 # What teams do we have?
 
-Currently DataRes has 4 teams: Data Blog, Consulting, Research, and UCLA Athletics. Each of our teams are designed to teach their members about a specific area of data science and its application, while providing opportunities to learn new skills and apply your knowledge.
+Currently DataRes has 3 teams: Data Blog, Consulting, and Research. Each of our teams are designed to teach their members about a specific area of data science and its application, while providing opportunities to learn new skills and apply your knowledge.
 
 Visit the specific team's page to learn more them!
 
