@@ -3,6 +3,7 @@ import { Image } from "@astrojs/image/components";
 
 interface Props {
   image: ImageMetadata | string | undefined,
+  alt: string,
   href: string
 }
 ---
@@ -15,7 +16,7 @@ interface Props {
     Astro.props.image ?
       typeof Astro.props.image === 'string'  ?
         <img class="w-full lg:px-6 lg:my-auto lg:h-auto lg:w-48" src={Astro.props.image} /> :
-        <Image class="w-full lg:px-6 lg:my-auto lg:h-auto lg:w-48" src={Astro.props.image} alt="" /> :
+        <Image class="w-full lg:px-6 lg:my-auto lg:h-auto lg:w-48" src={Astro.props.image} alt={Astro.props.alt} /> :
       null
   }
   <div class={`px-6 py-4 ${Astro.props.prose ? 'prose prose-h1:text-xl' : ''}`}>
