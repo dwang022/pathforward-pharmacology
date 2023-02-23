@@ -1,5 +1,14 @@
 ---
 const title = Astro.props.title || "UCLA DataRes";
+const currentPath = new URL(Astro.request.url).pathname.replace(/\/$/, "");
+const navClasses = [
+  "inline-block",
+  "rounded-lg",
+  "py-1",
+  "px-2",
+  "text-sm",
+  ""
+]
 ---
 
 <!DOCTYPE html>
@@ -23,25 +32,80 @@ const title = Astro.props.title || "UCLA DataRes";
             </a>
             <div class="hidden sm:flex items-center gap-x-1 md:gap-x-8">
               <a
-                class="inline-block rounded-lg py-1 px-2 text-sm text-slate-700 hover:bg-slate-100 hover:text-slate-900"
+                class:list={[
+                  ...navClasses,
+                  currentPath === "/teams/datablog"
+                    ? "bg-slate-700 text-slate-100"
+                    : "text-slate-700 hover:bg-slate-100"
+                ]}
+                href="/teams/datablog"
+              >
+                Data Blog
+              </a>
+              <a
+                class:list={[
+                  ...navClasses,
+                  currentPath === "/teams/consulting"
+                    ? "bg-slate-700 text-slate-100"
+                    : "text-slate-700 hover:bg-slate-100"
+                ]}
+                href="/teams/consulting"
+              >
+                Consulting
+              </a>
+              <a
+                class:list={[
+                  ...navClasses,
+                  currentPath === "/teams/research"
+                    ? "bg-slate-700 text-slate-100"
+                    : "text-slate-700 hover:bg-slate-100"
+                ]}
+                href="/teams/research"
+              >
+                Research
+              </a>
+            </div>
+            <div class="hidden sm:flex items-center gap-x-1 md:gap-x-8">
+              <a
+                class:list={[
+                  ...navClasses,
+                  currentPath === "/about"
+                    ? "bg-slate-700 text-slate-100"
+                    : "text-slate-700 hover:bg-slate-100"
+                ]}
                 href="/about"
               >
                 About
               </a>
               <a
-                class="inline-block rounded-lg py-1 px-2 text-sm text-slate-700 hover:bg-slate-100 hover:text-slate-900"
+                class:list={[
+                  ...navClasses,
+                  currentPath === "/who-we-are"
+                    ? "bg-slate-700 text-slate-100"
+                    : "text-slate-700 hover:bg-slate-100"
+                ]}
                 href="/who-we-are"
               >
                 Who We Are
               </a>
               <a
-                class="inline-flex rounded-lg py-1 px-2 text-sm text-slate-700 hover:bg-slate-100 hover:text-slate-900"
+                class:list={[
+                  ...navClasses,
+                  currentPath === "/events"
+                    ? "bg-slate-700 text-slate-100"
+                    : "text-slate-700 hover:bg-slate-100"
+                ]}
                 href="/events"
               >
                 Events
               </a>
               <a
-                class="inline-block rounded-lg py-1 px-2 text-sm text-slate-700 hover:bg-slate-100 hover:text-slate-900"
+                class:list={[
+                  ...navClasses,
+                  currentPath === "/join-us"
+                    ? "bg-slate-700 text-slate-100"
+                    : "text-slate-700 hover:bg-slate-100"
+                ]}
                 href="/join-us"
               >
                 Join Us
@@ -53,27 +117,46 @@ const title = Astro.props.title || "UCLA DataRes";
               </svg>            
             </div>
           </div>
-          <div id="hamburger-fold" class="hidden border-t mt-4 pt-2 border-slate-400">
+          <div id="hamburger-fold" class="hidden border-t mt-4 border-slate-400">
             <a
-              class="block pt-2 text-slate-700"
+              class="block my-2 text-slate-700"
+              href="/teams/datablog"
+            >
+              Data Blog
+            </a>
+            <a
+              class="block my-2 text-slate-700"
+              href="/teams/consulting"
+            >
+              Consulting
+            </a>
+            <a
+              class="block my-2 text-slate-700"
+              href="/teams/research"
+            >
+              Research
+            </a>
+            <hr />
+            <a
+              class="block my-2 text-slate-700"
               href="/about"
             >
               About
             </a>
             <a
-              class="block pt-2 text-slate-700"
+              class="block my-2 text-slate-700"
               href="/who-we-are"
             >
               Who We Are
             </a>
             <a
-              class="block pt-2 text-slate-700"
+              class="block my-2 text-slate-700"
               href="/events"
             >
               Events
             </a>
             <a
-              class="block pt-2 text-slate-700"
+              class="block my-2 text-slate-700"
               href="/join-us"
             >
               Join Us
@@ -92,16 +175,6 @@ const title = Astro.props.title || "UCLA DataRes";
             <p>&copy; 2023 UCLA DataRes</p>
           </div>
           <div class="flex items-center gap-x-5 md:gap-x-8">
-            <a
-              href="https://www.facebook.com/ucladatares"
-              rel="noopener noreferrer"
-              target="_blank"
-              aria-label="Our Facebook"
-            >
-              <svg class="w-8 h-8 fill-current" viewBox="0 0 512 512">
-                <path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/>
-              </svg>
-            </a>
             <a
               href="https://twitter.com/DataresUcla"
               rel="noopener noreferrer"
