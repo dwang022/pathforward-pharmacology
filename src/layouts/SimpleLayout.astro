@@ -11,7 +11,7 @@ const { frontmatter } = Astro.props;
     {frontmatter.subtitle ? <p>{frontmatter.subtitle}</p> : null}
   </Hero>
   <div class="px-10">
-    <div class={`prose ${frontmatter.max_w} mx-auto my-10 ${frontmatter.centered ? "prose-headings:text-center" : ""}`}>
+    <div class={`prose ${frontmatter.max_w ? frontmatter.max_w : ""} mx-auto my-10 ${frontmatter.centered ? "prose-headings:text-center" : ""}`}>
       <slot />
     </div>
   </div>
