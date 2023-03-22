@@ -1,54 +1,42 @@
 ---
 layout: ../layouts/SimpleLayout.astro
 title: Meet the Board
-subtitle: 
+subtitle:
 centered: true
 max_w: max-w-6xl
 ---
-import Profile from "../components/Profile.astro"
+
+import Profile from "../components/Profile.astro";
 import { Image } from "@astrojs/image/components";
 import { executive, management, team, specialized } from "../images/profiles";
 
 # Executive Board
+
 <div class="flex flex-wrap justify-center justify-items-center gap-x-16">
-  {
-    executive.map(member => 
-      <Profile
-        image={member.image}
-        href={member.href}
-      >
-        <h1>{member.name}</h1>
-        <p>{member.role}</p>
-      </Profile>
-    )
-  }
+  {executive.map((member) => (
+    <Profile image={member.image} href={member.href}>
+      <h1>{member.name}</h1>
+      <p>{member.role}</p>
+    </Profile>
+  ))}
 </div>
 # Management Heads
 <div class="flex flex-wrap justify-center justify-items-center gap-x-16">
-  {
-    management.map(member => 
-      <Profile
-        image={member.image}
-        href={member.href}
-      >
-        <h1>{member.name}</h1>
-        <p>{member.role}</p>
-      </Profile>
-    )
-  }
+  {management.map((member) => (
+    <Profile image={member.image} href={member.href}>
+      <h1>{member.name}</h1>
+      <p>{member.role}</p>
+    </Profile>
+  ))}
 </div>
 
 # Team Heads
+
 <div class="flex flex-wrap justify-center justify-items-center gap-x-16">
-  {
-    team.map(member => 
-      <Profile
-        image={member.image}
-        href={member.href}
-      >
-        <h1>{member.name}</h1>
-        <p>{member.role}</p>
-      </Profile>
-    )
-  }
+  {team.map((member) => (
+    <Profile image={member.image} href={member.href}>
+      <h1>{member.name}</h1>
+      <p>{member.role}</p>
+    </Profile>
+  ))}
 </div>

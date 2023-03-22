@@ -8,7 +8,7 @@ Editing the content of an individual page is simple, following these steps:
 
 1. Find the relevant file for the page you want to edit: for instance, if you want to edit `ucladatares.com/teams/research.html`, then the associated file is `src/pages/teams/research.mdx`. Note that not all files will end in `.mdx`, `.md` or `.astro` are also valid options.
 2. Open the file you found in your favorite plain text editor. (vscode is probably easiest), and edit the content.
-[Here's](https://www.markdownguide.org/) a useful guide for Markdown (`.md` and `.mdx` files). Astro files are an extension of HTML that use JSX-like syntax, which allows for more customization than Markdown offers, but with less easy-to-read content.
+   [Here's](https://www.markdownguide.org/) a useful guide for Markdown (`.md` and `.mdx` files). Astro files are an extension of HTML that use JSX-like syntax, which allows for more customization than Markdown offers, but with less easy-to-read content.
 3. Test your changes locally with `npm start`. Note that you may need to run `npm install` first in order to install dependencies. To run `npm` you must have [NodeJS](https://nodejs.org/en/) installed.
 4. Push your changes with `git`.
 

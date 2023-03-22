@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["futura-pt", "sans-serif"]
+        sans: ["futura-pt", "sans-serif"],
       },
       colors: {
         primary: {
@@ -15,19 +15,19 @@ module.exports = {
         secondary: {
           light: "#ffef66",
           DEFAULT: "#fdbd32",
-          dark: "#c58d00"
+          dark: "#c58d00",
         },
         tertiary: {
           light: "#c9d67e",
           DEFAULT: "#97a550",
-          dark: "#677623"
+          dark: "#677623",
         },
         quaternary: {
           light: "#92f3ee",
           DEFAULT: "#5ec0bc",
-          dark: "#248f8c"
-        }
-      }
+          dark: "#248f8c",
+        },
+      },
     },
   },
   plugins: [require("@tailwindcss/typography")],

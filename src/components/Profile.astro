@@ -2,15 +2,12 @@
 import { Picture } from "@astrojs/image/components";
 
 interface Props {
-  image: ImageMetadata,
-  href: string
+  image: ImageMetadata;
+  href: string;
 }
 ---
 
-<a
-  class="block no-underline text-center"
-  href={Astro.props.href}
->
+<a class="block no-underline text-center" href={Astro.props.href}>
   <Picture
     class="mx-auto rounded-full"
     src={Astro.props.image}

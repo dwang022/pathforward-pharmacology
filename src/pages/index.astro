@@ -2,11 +2,12 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import Hero from "../components/Hero.astro";
 import Card from "../components/Card.astro";
-const desc = "At DataRes, we solve problems and craft stories with data. We \
+const desc =
+  "At DataRes, we solve problems and craft stories with data. We \
 provide a platform for aspiring data scientists and analysts to collaborate on \
 impactful data projects. If you love playing with data, creating \
 powerful visualizations, or building predictive models, you have a home \
-at DataRes."
+at DataRes.";
 ---
 
 <BaseLayout title="UCLA DataRes" desc={desc}>
@@ -18,17 +19,33 @@ at DataRes."
     <div class="mx-auto max-w-6xl my-10 py-10" id="branches">
       <h1 class="text-center font-extrabold text-4xl mb-10">Branches</h1>
       <div class="flex flex-wrap justify-center my-10 [&>*]:flex-none">
-        <Card image="/assets/images/datablog.svg" href="/teams/datablog" alt="data blog team">
+        <Card
+          image="/assets/images/datablog.svg"
+          href="/teams/datablog"
+          alt="data blog team"
+        >
           <div class="text-xl font-bold mb-2">Data Blog</div>
           <p class="text-grey-700 text-base">Creating data-backed narratives</p>
         </Card>
-        <Card image="/assets/images/research.svg" href="/teams/research" alt="research team">
+        <Card
+          image="/assets/images/research.svg"
+          href="/teams/research"
+          alt="research team"
+        >
           <div class="text-xl font-bold mb-2">Research</div>
-          <p class="text-grey-700 text-base">Pushing the limits of machine learning</p>
+          <p class="text-grey-700 text-base">
+            Pushing the limits of machine learning
+          </p>
         </Card>
-        <Card image="/assets/images/consulting.svg" href="/teams/consulting" alt="consulting team">
+        <Card
+          image="/assets/images/consulting.svg"
+          href="/teams/consulting"
+          alt="consulting team"
+        >
           <div class="text-xl font-bold mb-2">Consulting</div>
-          <p class="text-grey-700 text-base">Developing data-driven solutions</p>
+          <p class="text-grey-700 text-base">
+            Developing data-driven solutions
+          </p>
         </Card>
       </div>
     </div>
