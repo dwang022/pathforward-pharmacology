@@ -65,6 +65,17 @@ const navClasses = [
               >
                 Research
               </a>
+              <a
+                class:list={[
+                  ...navClasses,
+                  currentPath === "/teams/datalearn"
+                    ? "bg-slate-700 text-slate-100"
+                    : "text-slate-700 hover:bg-slate-100"
+                ]}
+                href="/teams/datalearn"
+              >
+                DataLearn
+              </a>
             </div>
             <div class="hidden sm:flex items-center gap-x-1 md:gap-x-8">
               <a
