@@ -18,7 +18,7 @@ subtitle: DataRes is UCLA's first and largest student organization dedicated to 
 At DataRes, we solve problems and craft stories with data. We provide a platform for aspiring data scientists, analysts, and machine learning enthusiasts to collaborate on impactful projects. If you love playing with data, creating powerful visualizations, or building predictive models, you have a home at DataRes.
 
 What teams does DataRes have?
-* DataLearn Team - This team is dedicated to teaching data science principles to a wider campus community at UCLA via a weekly educational series.
+* [DataLearn Team](/teams/datalearn) - This team is dedicated to teaching data science principles to a wider campus community at UCLA via a weekly educational series.
 * [Data Blog Team](/teams/datablog) - This team works on analytics-based projects, occasionally delving into simple machine learning algorithms, publishing their work as data-centric blog articles.
 * [Research Team](/teams/research) - This team specializes in taking the most up-to-date deep learning pipelines/technologies and applying them to areas of their interest. These ML areas include but are not limited to NLP, Computer Vision, GNNs, Reinforcement Learning, etc.
 * [Consulting Team](/teams/consulting) - This team offers consulting services to companies with a need for data science talent. One of our major companies is UCLA Athletics.
