@@ -60,7 +60,7 @@ export const management = [
     image: katherine,
     name: "Katherine Huynh",
     role: "Co-Outreach Head",
-    href: ""
+    href: "https://www.linkedin.com/in/katherineghuynh/"
   },
   {
     image: irene,
