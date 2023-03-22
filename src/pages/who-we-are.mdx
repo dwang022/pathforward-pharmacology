@@ -52,18 +52,3 @@ import { executive, management, team, specialized } from "../images/profiles";
     )
   }
 </div>
-
-# Specialized Team Heads
-<div class="flex flex-wrap justify-center justify-items-center gap-x-16">
-  {
-    specialized.map(member => 
-      <Profile
-        image={member.image}
-        href={member.href}
-      >
-        <h1>{member.name}</h1>
-        <p>{member.role}</p>
-      </Profile>
-    )
-  }
-</div>

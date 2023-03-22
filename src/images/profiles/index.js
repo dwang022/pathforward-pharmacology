@@ -1,127 +1,160 @@
-import colin from "./colin.jpg";
-import madison from "./madison.jpg";
-
-import justin from "./justin.jpg";
-import brandon from "./brandon.jpg";
-import olivia from "./olivia.jpg";
 import taylor from "./taylor.jpg";
+import justin from "./justin.jpg";
+import chris from "./chris.jpg";
 
-import anika from "./anika.jpg";
+import katrina from "./katrina.jpg";
+import briana from "./briana.jpg";
+import katherine from "./katherine.jpg";
+import irene from "./irene.jpg";
 import derek from "./derek.jpg";
 import isha from "./isha.jpg";
-import avishek from "./avishek.jpg";
-import chris from "./chris.jpg";
-import ishaan from "./ishaan.jpg";
-import ivan from "./ivan.jpg";
+import rebekah from "./rebekah.jpg";
 
-import raymond from "./raymond.jpg";
-import karina from "./karina.jpg";
-import andrew from "./andrew.jpg";
+import aditya from "./aditya.jpg";
+import amelie from "./amelie.jpg";
+import lukas from "./lukas.jpg";
+import sammy from "./sammy.jpg";
+import julia from "./julia.jpg";
+import kevint from "./kevint.jpg";
+import jane from "./jane.jpg";
+import anvesha from "./anvesha.jpg";
+import sean from "./sean.jpg";
+import kevinh from "./kevinh.jpg";
+import patricia from "./patricia.jpg";
 
 export const executive = [
   {
-    image: colin,
-    name: "Colin Curtis",
-    role: "Co-President",
-    href: "https://www.linkedin.com/in/colin-curtis826/"
+    image: taylor,
+    name: "Taylor Kim",
+    role: "President",
+    href: "https://www.linkedin.com/in/taylor-kim-b7a406221/"
   }, 
   {
-    image: madison,
-    name: "Madison Kohls",
-    role: "Co-President",
-    href: "https://www.linkedin.com/in/madison-kohls/"
+    image: justin,
+    name: "Justin Gong",
+    role: "External Vice President",
+    href: "https://www.linkedin.com/in/justingong03/"
+  },
+  {
+    image: chris,
+    name: "Christopher Milan",
+    role: "Internal Vice President",
+    href: "https://www.linkedin.com/in/chrismilan/"
   }
 ];
 
 export const management = [
   {
-    image: justin,
-    name: "Justin Gong",
-    role: "Finance Head",
-    href: "https://www.linkedin.com/in/justingong03/"
+    image: katrina,
+    name: "Katrina Iguban",
+    role: "Co-Design/Marketing Head",
+    href: ""
   },
   {
-    image: brandon,
-    name: "Brandon Zhao",
-    role: "Outreach Head",
-    href: "https://www.linkedin.com/in/brandonzhao1/"
+    image: briana,
+    name: "Briana Nguyen",
+    role: "Co-Design/Marketing Head",
+    href: ""
   },
   {
-    image: olivia,
-    name: "Olivia Wang",
-    role: "Membership Head",
-    href: "https://www.linkedin.com/in/jinhui-olivia-wang-b641341a7/"
+    image: katherine,
+    name: "Katherine Huynh",
+    role: "Co-Outreach Head",
+    href: ""
   },
   {
-    image: taylor,
-    name: "Taylor Kim",
-    role: "Marketing/Design Head",
-    href: "https://www.linkedin.com/in/taylor-kim-b7a406221/"
-  }
-];
-
-export const team = [
-  {
-    image: anika,
-    name: "Anika Chakrabarti",
-    role: "Data Blog Co-Head",
-    href: "https://www.linkedin.com/in/anika-chakrabarti-394b91205/"
+    image: irene,
+    name: "Irene Zhang",
+    role: "Co-Outreach Head",
+    href: ""
   },
   {
     image: derek,
     name: "Derek Nakagawa",
-    role: "Data Blog Co-Head",
+    role: "Finance Head",
     href: "https://www.linkedin.com/in/derek-nakagawa-77a9aa180/"
   },
   {
     image: isha,
     name: "Isha Shah",
-    role: "Consulting Co-Head",
+    role: "Co-Membership Head",
     href: "https://www.linkedin.com/in/ishashah146/"
   },
   {
-    image: avishek,
-    name: "Avishek Ghosh",
-    role: "Consulting Co-Head",
-    href: "https://www.linkedin.com/in/ghosh-avishek/"
+    image: rebekah,
+    name: "Rebekah Limb",
+    role: "Co-Membership Head",
+    href: ""
   },
-  {
-    image: chris,
-    name: "Christopher Milan",
-    role: "Research Head",
-    href: "https://www.linkedin.com/in/chrismilan/"
-  },
-  {
-    image: ishaan,
-    name: "Ishaan Shah",
-    role: "DataLearn Co-Head",
-    href: "https://www.linkedin.com/in/ishaanshah24/"
-  },
-  {
-    image: ivan,
-    name: "Ivan Guan",
-    role: "DataLearn Co-Head",
-    href: "https://www.linkedin.com/in/ivanguan1/"
-  }
 ];
 
-export const specialized = [
+export const team = [
   {
-    image: raymond,
-    name: "Raymond Bai",
-    role: "UCLA Athletics PM",
-    href: "https://www.linkedin.com/in/raymondbai/"
+    image: aditya,
+    name: "Aditya Bharath",
+    role: "Co-Data Blog Head",
+    href: ""
   },
   {
-    image: karina,
-    name: "Karina Santoso",
-    role: "UCLA Athletics PM",
-    href: "https://www.linkedin.com/in/karina-santoso/"
+    image: amelie,
+    name: "Amy Ionescu",
+    role: "Co-Data Blog Head",
+    href: ""
   },
   {
-    image: andrew,
-    name: "Drew Letvin",
-    role: "UCLA Athletics PM",
-    href: "https://www.linkedin.com/in/drew-letvin/"
-  }
-]
+    image: lukas,
+    name: "Lukas Brockenbrough",
+    role: "Co-Research Head",
+    href: ""
+  },
+  {
+    image: sammy,
+    name: "Sammy Shang",
+    role: "Co-Research Head",
+    href: ""
+  },
+  {
+    image: julia,
+    name: "Julia Craciun",
+    role: "Co-Consulting Head",
+    href: ""
+  },
+  {
+    image: kevint,
+    name: "Kevin Tang",
+    role: "Co-Consulting Head",
+    href: ""
+  },
+  {
+    image: jane,
+    name: "Jane Zou",
+    role: "Co-DataLearn Head",
+    href: ""
+  },
+  {
+    image: anvesha,
+    name: "Anvesha Dutta",
+    role: "Co-DataLearn Head",
+    href: ""
+  },
+  {
+    image: sean,
+    name: "Sean Tjoa",
+    role: "Co-DataTeach Head",
+    href: ""
+  },
+  {
+    image: kevinh,
+    name: "Kevin Hamakawa",
+    role: "Co-DataTeach Head",
+    href: ""
+  },
+  {
+    image: patricia,
+    name: "Patricia",
+    role: "Co-DataTeach Head",
+    href: ""
+  },
+];
+
+export const specialized = [];
