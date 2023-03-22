@@ -48,13 +48,13 @@ export const management = [
     image: katrina,
     name: "Katrina Iguban",
     role: "Co-Design/Marketing Head",
-    href: ""
+    href: "https://www.linkedin.com/in/katrina-iguban/"
   },
   {
     image: briana,
     name: "Briana Nguyen",
     role: "Co-Design/Marketing Head",
-    href: ""
+    href: "https://www.linkedin.com/in/briana-nguyen-496277268/"
   },
   {
     image: katherine,
@@ -66,7 +66,7 @@ export const management = [
     image: irene,
     name: "Irene Zhang",
     role: "Co-Outreach Head",
-    href: ""
+    href: "https://www.linkedin.com/in/irene-zhang-9281b6234/"
   },
   {
     image: derek,
@@ -84,7 +84,7 @@ export const management = [
     image: rebekah,
     name: "Rebekah Limb",
     role: "Co-Membership Head",
-    href: ""
+    href: "https://www.linkedin.com/in/rebekah-limb-ab0776157/"
   },
 ];
 
@@ -93,68 +93,67 @@ export const team = [
     image: aditya,
     name: "Aditya Bharath",
     role: "Co-Data Blog Head",
-    href: ""
+    href: "https://www.linkedin.com/in/aditya-bharath-ab48761a7/"
   },
   {
     image: amelie,
     name: "Amy Ionescu",
     role: "Co-Data Blog Head",
-    href: ""
+    href: "https://www.linkedin.com/in/amelie-ionescu-758bb0204/"
   },
   {
     image: lukas,
     name: "Lukas Brockenbrough",
     role: "Co-Research Head",
-    href: ""
+    href: "https://www.linkedin.com/in/lukas-brockenbrough-7380211ba/"
   },
   {
     image: sammy,
     name: "Sammy Shang",
     role: "Co-Research Head",
-    href: ""
+    href: "https://www.linkedin.com/in/sammy-shang-814919202/"
   },
   {
     image: julia,
     name: "Julia Craciun",
     role: "Co-Consulting Head",
-    href: ""
+    href: "https://www.linkedin.com/in/juliacraciun/"
   },
   {
     image: kevint,
     name: "Kevin Tang",
     role: "Co-Consulting Head",
-    href: ""
+    href: "https://www.linkedin.com/in/kevintang513/"
   },
   {
     image: jane,
     name: "Jane Zou",
     role: "Co-DataLearn Head",
-    href: ""
+    href: "https://www.linkedin.com/in/jane-zou-datascience/"
   },
   {
     image: anvesha,
     name: "Anvesha Dutta",
     role: "Co-DataLearn Head",
-    href: ""
+    href: "https://www.linkedin.com/in/anvesha24/"
   },
   {
     image: sean,
     name: "Sean Tjoa",
     role: "Co-DataTeach Head",
-    href: ""
+    href: "https://www.linkedin.com/in/sean-tjoa/"
   },
   {
     image: kevinh,
     name: "Kevin Hamakawa",
     role: "Co-DataTeach Head",
-    href: ""
+    href: "https://www.linkedin.com/in/kevinhamakawa/"
   },
   {
     image: patricia,
-    name: "Patricia",
+    name: "Patricia Cheng",
     role: "Co-DataTeach Head",
-    href: ""
+    href: "https://www.linkedin.com/in/pcheng24/"
   },
 ];
 
-export const specialized = [];
