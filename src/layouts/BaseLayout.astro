@@ -1,4 +1,6 @@
 ---
+import Banner from "../components/Banner.astro";
+
 const title = Astro.props.title || "UCLA DataRes";
 const currentPath = new URL(Astro.request.url).pathname.replace(/\/$/, "");
 const navClasses = [
@@ -167,6 +169,9 @@ const navClasses = [
             <a class="block my-2 text-slate-700" href="/teams/research">
               Research
             </a>
+            <a class="block my-2 text-slate-700" href="/teams/datalearn">
+              DataLearn
+            </a>
             <hr />
             <a class="block my-2 text-slate-700" href="/about"> About</a>
             <a class="block my-2 text-slate-700" href="/who-we-are">
@@ -178,6 +183,13 @@ const navClasses = [
         </nav>
       </div>
     </header>
+    <div class={currentPath === "/join-us" ? "hidden" : ""}>
+      <Banner color="bg-secondary" href="/join-us" >
+        <p>
+          Spring 2023 Applications are Open!
+        </p>
+      </Banner>
+    </div>
     <main class="mb-auto">
       <slot />
     </main>

@@ -1,0 +1,12 @@
+---
+const color = Astro.props.color ? Astro.props.color : "bg-slate-700";
+const invert = Astro.props.invert ? "text-slate-100" : "text-slate-800";
+---
+
+<a href={Astro.props.href}>
+  <div class={`py-5 px-10 ${color}`}>
+    <div class={`mx-auto text-center ${invert}`}>
+      <slot />
+    </div>
+  </div>
+</a>

@@ -1,8 +1,13 @@
 ---
 layout: ../layouts/SimpleLayout.astro
 title: Join our team!
-subtitle: DataRes is currently not recruiting. Recruiting for each of the DataRes teams happens at the beginning of every quarter.
+subtitle: We are now recruiting for Spring 2023! See below for details.
 ---
+
+# Apply Now!
+
+* [Click here to apply for Consulting, Data Blog, or Research.](https://forms.gle/1qB2D3dNJhbexR6n6).
+* Want to learn Data Science? [Click here to sign up for DataLearn](https://forms.gle/Yx6tL4begTk8epYNA).
 
 ## Spring 2023 Application Timeline:
 
