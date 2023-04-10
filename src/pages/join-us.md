@@ -4,7 +4,7 @@ title: Join our team!
 subtitle: DataRes is currently not recruiting. Recruiting for each of the DataRes teams happens at the beginning of every quarter.
 ---
 
-Want to learn Data Science? [Click here to sign up for DataLearn](https://forms.gle/Yx6tL4begTk8epYNA).
+Want to learn Data Science? [Click here to join the DataLearn Discord](//discord.gg/WPhV9JXz).
 
 ## Spring 2023 Application Timeline:
 
