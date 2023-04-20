@@ -90,16 +90,16 @@ export const management = [
 
 export const team = [
   {
-    image: aditya,
-    name: "Aditya Bharath",
-    role: "Co-Data Blog Head",
-    href: "https://www.linkedin.com/in/aditya-bharath-ab48761a7/",
+    image: kevint,
+    name: "Kevin Tang",
+    role: "Co-Consulting Head",
+    href: "https://www.linkedin.com/in/kevintang513/",
   },
   {
-    image: amelie,
-    name: "Amy Ionescu",
-    role: "Co-Data Blog Head",
-    href: "https://www.linkedin.com/in/amelie-ionescu-758bb0204/",
+    image: julia,
+    name: "Julia Craciun",
+    role: "Co-Consulting Head",
+    href: "https://www.linkedin.com/in/juliacraciun/",
   },
   {
     image: lukas,
@@ -114,16 +114,16 @@ export const team = [
     href: "https://www.linkedin.com/in/sammy-shang-814919202/",
   },
   {
-    image: julia,
-    name: "Julia Craciun",
-    role: "Co-Consulting Head",
-    href: "https://www.linkedin.com/in/juliacraciun/",
+    image: amelie,
+    name: "Amy Ionescu",
+    role: "Co-Data Blog Head",
+    href: "https://www.linkedin.com/in/amelie-ionescu-758bb0204/",
   },
   {
-    image: kevint,
-    name: "Kevin Tang",
-    role: "Co-Consulting Head",
-    href: "https://www.linkedin.com/in/kevintang513/",
+    image: aditya,
+    name: "Aditya Bharath",
+    role: "Co-Data Blog Head",
+    href: "https://www.linkedin.com/in/aditya-bharath-ab48761a7/",
   },
   {
     image: jane,
