@@ -1,6 +1,4 @@
 ---
-import Banner from "../components/Banner.astro";
-
 const title = Astro.props.title || "UCLA DataRes";
 const currentPath = new URL(Astro.request.url).pathname.replace(/\/$/, "");
 const navClasses = [
@@ -183,13 +181,6 @@ const navClasses = [
         </nav>
       </div>
     </header>
-    <div>
-      <Banner color="bg-secondary" href="//discord.gg/WPhV9JXz" >
-        <p>
-          Interested in Learning Data Science? Join the DataLearn Discord!
-        </p>
-      </Banner>
-    </div>
     <main class="mb-auto">
       <slot />
     </main>
