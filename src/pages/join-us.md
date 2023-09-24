@@ -4,7 +4,11 @@ title: Join our team!
 subtitle: DataRes is currently recruiting for Fall 2023! See below for details.
 ---
 
-Want to learn Data Science? More info on Fall 2023 DataLearn coming soon!
+
+# Apply Now!
+
+* [Click here to apply for Consulting, Data Blog, or Research](https://forms.gle/MSWUfEKm2F96ayJy8)
+* Want to learn Data Science? More info on Fall 2023 DataLearn coming soon!
 
 ## Fall 2023 Application Timeline:
 
