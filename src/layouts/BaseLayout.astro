@@ -47,7 +47,7 @@ const navClasses = [
                 class="h-6 w-auto"
               />
             </a>
-            <div class="hidden sm:flex items-center gap-x-1 md:gap-x-8">
+            <div class="hidden md:flex items-center gap-x-1 md:gap-x-8">
               <a
                 class:list={[
                   ...navClasses,
@@ -92,8 +92,19 @@ const navClasses = [
               >
                 DataLearn
               </a>
+              <a
+                class:list={[
+                  ...navClasses,
+                  currentPath === "/teams/datateach"
+                    ? "bg-slate-700 text-slate-100"
+                    : "text-slate-700 hover:bg-slate-100",
+                ]}
+                href="/teams/datateach"
+              >
+                DataTeach
+              </a>
             </div>
-            <div class="hidden sm:flex items-center gap-x-1 md:gap-x-8">
+            <div class="hidden md:flex items-center gap-x-1 md:gap-x-8">
               <a
                 class:list={[
                   ...navClasses,
@@ -139,7 +150,7 @@ const navClasses = [
                 Join Us
               </a>
             </div>
-            <div class="block sm:hidden" id="hamburger">
+            <div class="block md:hidden" id="hamburger">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -170,6 +181,9 @@ const navClasses = [
             </a>
             <a class="block my-2 text-slate-700" href="/teams/datalearn">
               DataLearn
+            </a>
+            <a class="block my-2 text-slate-700" href="/teams/datateach">
+              DataTeach
             </a>
             <hr />
             <a class="block my-2 text-slate-700" href="/about"> About</a>
