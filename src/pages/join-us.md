@@ -1,14 +1,13 @@
 ---
 layout: ../layouts/SimpleLayout.astro
 title: Join our team!
-subtitle: DataRes is currently recruiting for Fall 2023! See below for details.
+subtitle: DataRes acceptances are now out for Fall 2023! Applications open again Winter 2024.
 ---
 
 
 # Apply Now!
 
-* [Click here to apply for Consulting, Data Blog, or Research](https://forms.gle/MSWUfEKm2F96ayJy8)
-* Want to learn Data Science? [Click here to register](https://forms.gle/r4NXpeFPfzbKQBYz9)
+* Check back later for Winter 2024 application information.
 
 ## Fall 2023 Application Timeline:
 
