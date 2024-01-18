@@ -15,11 +15,11 @@ import amelie from "./amelie.jpg";
 import lukas from "./lukas.jpg";
 import sammy from "./sammy.jpg";
 import julia from "./julia.jpg";
-import kevint from "./kevint.jpg";
+import priyanka from "./priyanka.jpg";
 import jane from "./jane.jpg";
 import anvesha from "./anvesha.jpg";
 import sean from "./sean.jpg";
-import kevinh from "./kevinh.jpg";
+import kevin from "./kevin.jpg";
 import patricia from "./patricia.jpg";
 
 export const executive = [
@@ -90,10 +90,10 @@ export const management = [
 
 export const team = [
   {
-    image: kevint,
-    name: "Kevin Tang",
+    image: priyanka,
+    name: "Priyanka Iragavarapu",
     role: "Co-Consulting Head",
-    href: "https://www.linkedin.com/in/kevintang513/",
+    href: "https://www.linkedin.com/in/sai-priyanka-iragavarapu/",
   },
   {
     image: julia,
@@ -144,7 +144,7 @@ export const team = [
     href: "https://www.linkedin.com/in/sean-tjoa/",
   },
   {
-    image: kevinh,
+    image: kevin,
     name: "Kevin Hamakawa",
     role: "Co-DataTeach Head",
     href: "https://www.linkedin.com/in/kevinhamakawa/",
