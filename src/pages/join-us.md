@@ -7,10 +7,10 @@ subtitle: DataRes acceptances are now out for Fall 2023! Applications open again
 
 # Apply Now!
 
-* Check back later for Winter 2024 application information.
+* Spring 2024 Application Link: https://forms.gle/YArupkEXnJyckdgc9
 
-## Fall 2023 Application Timeline:
+## Spring 2024 Application Timeline:
 
-1. Applications released: **September 23, 2023**
-2. Applications due: **October 6, 2023 @ 11:59 pm PT**.
-3. Decisions Released: **Week 2**.
+1. Applications released: **March 25, 2024**
+2. Applications due: **April 5, 2024 @ 11:59 pm PT**.
+3. Decisions Released: **End of Week 2**.
