@@ -7,7 +7,7 @@ subtitle: DataRes acceptances are now out for Fall 2023! Applications open again
 
 # Apply Now!
 
-* Spring 2024 Application Link: https://forms.gle/YArupkEXnJyckdgc9
+* Spring 2024 Application Link: [https://forms.gle/YArupkEXnJyckdgc9](https://docs.google.com/forms/d/e/1FAIpQLScZy9akw8lZqmnrTsCeu9hNCr3BcWTFYb_U5FgebGMKX8BR9A/viewform)
 
 ## Spring 2024 Application Timeline:
 
