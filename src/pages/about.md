@@ -6,11 +6,12 @@ subtitle: DataRes is UCLA's first and largest student organization dedicated to 
 
 # Apply Today!
 
-## Spring 2023 Application Timeline:
+## Spring 2024 Application Timeline:
 
-1. Apps released: **Mar 23, 2023**
-2. Apps due: **Mar 30, 2023 @ 11:59 pm PT** for _returners_, and **Apr 7, 2023 @ 11:59 PM PT** for _new applicants_.
-3. Decisions Released: **Week 2** (April 10-14th)
+1. Applications released: **March 25, 2024**
+2. Applications due: **April 5, 2024 @ 11:59 pm PT**.
+3. Decisions Released: **End of Week 2**.
+
 
 # Frequently Asked Questions
 
