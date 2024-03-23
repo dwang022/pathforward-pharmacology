@@ -25,6 +25,7 @@ What teams does DataRes have?
 - [Data Blog Team](/teams/datablog) - This team works on analytics-based projects, occasionally delving into simple machine learning algorithms, publishing their work as data-centric blog articles.
 - [Research Team](/teams/research) - This team specializes in taking the most up-to-date deep learning pipelines/technologies and applying them to areas of their interest. These ML areas include but are not limited to NLP, Computer Vision, GNNs, Reinforcement Learning, etc.
 - [Consulting Team](/teams/consulting) - This team offers consulting services to companies with a need for data science talent. One of our major companies is UCLA Athletics.
+- [DataTeach Team](/teams/datateach) - This team works with our educational outreach division to visit local high schools and teach the basics of data science/ We do not require any prior data science knowledge, but prefer experience in teaching and/or working with kids.
 
 ## How many active members does DataRes have?
 
