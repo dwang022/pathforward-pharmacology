@@ -1,7 +1,7 @@
 ---
 layout: ../layouts/SimpleLayout.astro
 title: Join our team!
-subtitle: DataRes acceptances are now out for Fall 2023! Applications open again Winter 2024.
+subtitle: DataRes acceptances are now out for Spring 2024!
 ---
 
 
