@@ -77,6 +77,24 @@ export const management = [
 
 export const team = [
   {
+    image: sia,
+    name: "Sia Phulambrikar",
+    role: "DataLearn Head",
+    href: "https://www.linkedin.com/in/phulambrikarsia/",
+  },
+  {
+    image: derek,
+    name: "Derek Nakagawa",
+    role: "Co-Data Blog Head",
+    href: "https://www.linkedin.com/in/derek-nakagawa-77a9aa180/",
+  },
+  {
+    image: irene,
+    name: "Irene Zhang",
+    role: "Co-Blog Head",
+    href: "https://www.linkedin.com/in/irene-zhang-9281b6234/",
+  },
+  {
     image: max,
     name: "Max Xu",
     role: "Co-Consulting Head",
@@ -93,24 +111,6 @@ export const team = [
     name: "Larry Lu",
     role: "Research Head",
     href: "https://www.linkedin.com/in/wenhan-lu/",
-  },
-  {
-    image: derek,
-    name: "Derek Nakagawa",
-    role: "Co-Data Blog Head",
-    href: "https://www.linkedin.com/in/derek-nakagawa-77a9aa180/",
-  },
-  {
-    image: irene,
-    name: "Irene Zhang",
-    role: "Co-Blog Head",
-    href: "https://www.linkedin.com/in/irene-zhang-9281b6234/",
-  },
-  {
-    image: sia,
-    name: "Sia Phulambrikar",
-    role: "DataLearn Head",
-    href: "https://www.linkedin.com/in/phulambrikarsia/",
   },
   {
     image: cynthia,
