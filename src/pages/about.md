@@ -6,7 +6,7 @@ subtitle: DataRes is UCLA's first and largest student organization dedicated to 
 
 # Apply Today!
 
-## Spring 2024 Application Timeline:
+## Spring 2024 Application Timeline: NOW CLOSED! Please apply again in our next cycle: Fall 2024! 
 
 1. Applications released: **March 25, 2024**
 2. Applications due: **April 5, 2024 @ 11:59 pm PT**.
