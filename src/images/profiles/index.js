@@ -68,7 +68,7 @@ export const management = [
     href: "https://www.linkedin.com/in/euantseng/",
   },
   {
-    image: amelie,
+    image: amy,
     name: "Amy Ionescu",
     role: "Membership Head",
     href: "https://www.linkedin.com/in/amelie-ionescu-758bb0204/",
@@ -90,15 +90,9 @@ export const team = [
   },
   {
     image: larry,
-    name: "Larry lu",
+    name: "Larry Lu",
     role: "Research Head",
     href: "https://www.linkedin.com/in/wenhan-lu/",
-  },
-  {
-    image: sammy,
-    name: "Sammy Shang",
-    role: "Co-Research Head",
-    href: "https://www.linkedin.com/in/sammy-shang-814919202/",
   },
   {
     image: derek,
@@ -113,7 +107,7 @@ export const team = [
     href: "https://www.linkedin.com/in/irene-zhang-9281b6234/",
   },
   {
-    image: Sia,
+    image: sia,
     name: "Sia Phulambrikar",
     role: "DataLearn Head",
     href: "https://www.linkedin.com/in/phulambrikarsia/",
