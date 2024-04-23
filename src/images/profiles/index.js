@@ -40,7 +40,7 @@ export const management = [
   },
   {
     image: janelle,
-    name: "Briana Nguyen",
+    name: "Janelle Ah Kit",
     role: "Co-Design/Marketing Head",
   },
   {
