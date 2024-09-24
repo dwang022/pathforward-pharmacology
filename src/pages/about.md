@@ -29,7 +29,7 @@ What teams does DataRes have?
 
 ## How many active members does DataRes have?
 
-During Winter Quarter 2023, we had over 100 active members across all teams.
+After Spring quarter 2024, we have over 300 active members across all teams
 
 ## Where have past DataRes members worked as interns/full-time?
 
