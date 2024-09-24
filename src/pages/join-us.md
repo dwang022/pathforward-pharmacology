@@ -7,7 +7,7 @@ subtitle: DataRes applications are now out for Spring 2024!
 
 # Apply Now!
 
-* Spring 2024 Application Link: [https://forms.gle/YArupkEXnJyckdgc9](https://docs.google.com/forms/d/e/1FAIpQLScZy9akw8lZqmnrTsCeu9hNCr3BcWTFYb_U5FgebGMKX8BR9A/viewform)
+* Spring 2024 Application Link: [https://forms.gle/Mo4srTjvGpUucNa6A](https://forms.gle/Mo4srTjvGpUucNa6A)
 
 ## Spring 2024 Application Timeline:
 
