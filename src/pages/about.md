@@ -6,10 +6,10 @@ subtitle: DataRes is UCLA's first and largest student organization dedicated to 
 
 # Apply Today!
 
-## Fall 2024 Application Timeline: 
+## Fall 2025 Application Timeline: 
 
-1. Applications released: **September 23, 2024**
-2. Applications due: **October 4, 2024 @ 11:59 pm PT**.
+1. Applications released: **September 23, 2025**
+2. Applications due: **October 4, 2025 @ 11:59 pm PT**.
 3. Decisions Released: **End of Week 2**.
 
 
@@ -29,7 +29,7 @@ What teams does DataRes have?
 
 ## How many active members does DataRes have?
 
-After Spring quarter 2024, we have over 300 active members across all teams
+After Spring quarter 2025, we have over 300 active members across all teams
 
 ## Where have past DataRes members worked as interns/full-time?
 
