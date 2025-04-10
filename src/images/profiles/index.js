@@ -2,33 +2,36 @@ import adya from "./adya.jpg";
 import amy from "./amy.jpg";
 import cynthia from "./cynthia.jpg";
 
-import daniel from "./daniel.jpg";
 import derek from "./derek.jpg";
-import katherine from "./katherine.jpg";
 import irene from "./irene.jpg";
 import ethan from "./ethan.jpg";
 import euan from "./euan.jpg";
 import janelle from "./janelle.jpg";
 
 import jocelyn from "./jocelyn.jpg";
-import katrina from "./katrina.jpg";
 import larry from "./larry.jpg";
 import max from "./max.jpg";
 import milla from "./milla.jpg";
 import sia from "./sia.jpg";
 
+//presidents
+import dshi from "./dshi.jpg";
+import daniel from "./daniel.JPEG";
+
+
+
 export const executive = [
   {
-    image: katherine,
-    name: "Katherine Huynh",
+    image: daniel,
+    name: "Daniel Wang",
     role: "President",
-    href: "https://www.linkedin.com/in/katherineghuynh/",
+    href: "https://www.linkedin.com/in/danielwang22/",
   },
   {
-    image: katrina,
-    name: "Katrina Iguban",
+    image: dshi,
+    name: "Derek Shi",
     role: "President",
-    href: "https://www.linkedin.com/in/katrina-iguban/",
+    href: "www.linkedin.com/in/derek-shi-6331672aa",
   },
 ];
 

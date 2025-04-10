@@ -1,11 +1,11 @@
 ---
 layout: ../layouts/SimpleLayout.astro
 title: Join our team!
-subtitle: DataLearn applications are now out for Winter 2025! Check back next quarter for recruitment for other branches!
+subtitle: Applications for Spring 2025 have closed! Please come back for the 2025-2026 school year for fall applications to ANY team!
 ---
 
 
-# Apply Now!
+# Follow Us!
 
-* DataLearn Application Link (due Wednesday, January 22nd): [https://forms.gle/Mo4srTjvGpUucNa6A](https://forms.gle/LDV2b4zZRqUf5VWf9)
+* [Follow us on Instagram @ucladatares](https://www.instagram.com/ucladatares/)
 
