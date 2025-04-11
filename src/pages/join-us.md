@@ -7,5 +7,5 @@ subtitle: Applications for Spring 2025 have closed! Please come back for the 202
 
 # Follow Us!
 
-* [Follow us on Instagram @ucladatares](https://www.instagram.com/ucladatares/)
+* [Follow us on Instagram to stay up to date with all things DataRes @ucladatares](https://www.instagram.com/ucladatares/)
 

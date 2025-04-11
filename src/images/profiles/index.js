@@ -4,7 +4,7 @@ import daniel from "./daniel.jpg";
 
 //marketing/design
 import kennedy from "./kennedy.jpg";
-import karen from "./karen.jpeg";
+import karen from "./karen.jpg";
 
 //outreach heads
 import mingyang from "./mingyang.jpg";
@@ -60,11 +60,13 @@ export const management = [
     image: kennedy,
     name: "Kennedy Hayashi",
     role: "Co-Design/Marketing Head",
+    href: "https://www.linkedin.com/in/kennedy-hayashi/",
   },
   {
     image: karen,
     name: "Karen Wang",
     role: "Co-Design/Marketing Head",
+    href: "https://www.linkedin.com/in/karen-wang-01a78732b/",
   },
   {
     image: mingyang,
