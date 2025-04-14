@@ -13,9 +13,10 @@ const { image, href } = Astro.props;
     class="mx-auto rounded-full"
     src={image}
     alt="profile picture"
-    width={192}
-    height={192}
-    format="webp"  
+    width={256}
+    height={256}
+    format="webp"
+    quality={90}
   />
   <div class="px-6 pb-10 prose prose-h1:text-xl">
     <slot />

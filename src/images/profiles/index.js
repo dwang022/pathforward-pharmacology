@@ -1,4 +1,3 @@
-
 //presidents
 import dshi from "./dshi.jpg";
 import daniel from "./daniel.jpg";
@@ -38,8 +37,6 @@ import olivia from "./olivia.jpg";
 //consulting heads
 import aidan from "./aidan.jpg";
 import kevin from "./kevin.jpg";
-
-
 
 export const executive = [
   {
@@ -140,7 +137,7 @@ export const team = [
   },
   {
     image: kevin,
-    name: "Kevin ",
+    name: "Kevin Ngo",
     role: "Co-Consulting Head",
     href: "https://www.linkedin.com/in/kevin-ngo000/",
   },
