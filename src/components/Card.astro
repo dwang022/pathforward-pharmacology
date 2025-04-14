@@ -1,34 +1,41 @@
 ---
-import { Image } from "@astrojs/image/components";
+import { Image } from "astro:assets"; 
 
 interface Props {
   image: ImageMetadata | string | undefined;
   alt: string;
   href: string;
+  prose?: boolean;
 }
+
+const { image, alt, href, prose } = Astro.props;
 ---
 
 <a
   class="mx-auto w-64 block lg:h-64 lg:w-96 lg:inline-flex lg:items-center no-underline hover:bg-slate-50 rounded-lg"
-  href={Astro.props.href}
+  href={href}
 >
   {
-    Astro.props.image ? (
-      typeof Astro.props.image === "string" ? (
+    image ? (
+      typeof image === "string" ? (
         <img
           class="w-full lg:px-6 lg:my-auto lg:h-auto lg:w-48"
-          src={Astro.props.image}
+          src={image}
+          alt={alt}
         />
       ) : (
         <Image
           class="w-full lg:px-6 lg:my-auto lg:h-auto lg:w-48"
-          src={Astro.props.image}
-          alt={Astro.props.alt}
+          src={image}
+          alt={alt}
+          width={192} 
+          height={192}
         />
       )
     ) : null
   }
-  <div class={`px-6 py-4 ${Astro.props.prose ? "prose prose-h1:text-xl" : ""}`}>
+
+  <div class={`px-6 py-4 ${prose ? "prose prose-h1:text-xl" : ""}`}>
     <slot />
   </div>
 </a>
