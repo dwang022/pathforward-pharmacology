@@ -36,7 +36,7 @@ Single file components are stored here, for use in layouts and pages.
 
 ### src/images/
 
-Progressive images are stored here. Load them using either the `<Image>` or `<Picture>` tag from `""@astrojs/image/components"`.
+Progressive and static images are stored here. Load them using the <Image /> component from astro:assets, which provides built-in image optimization. For external or dynamic URLs, you can still use the standard <img> tag as needed.
 
 ### src/layouts/
 
