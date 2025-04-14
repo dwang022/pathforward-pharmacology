@@ -1,23 +1,25 @@
 ---
-import { Image } from "astro:assets";
+import { Picture } from "@astrojs/image/components";
 
 interface Props {
   image: ImageMetadata;
   href: string;
 }
-const { image, href } = Astro.props;
 ---
 
-<a class="block no-underline text-center" href={href}>
-  <Image
+<a class="block no-underline text-center" href={Astro.props.href}>
+  <Picture
     class="mx-auto rounded-full"
-    src={image}
+    src={Astro.props.image}
     alt="profile picture"
-    width={192}
-    height={192}
-    format="webp"  
+    sizes="192px"
+    widths={[192]}
+    aspectRatio={1}
+    formats={["avif", "webp", "jpg"]}
+    quality={100}
+    fit="cover"
   />
-  <div class="px-6 pb-10 prose prose-h1:text-xl">
+  <div class={`px-6 pb-10 prose prose-h1:text-xl`}>
     <slot />
   </div>
 </a>

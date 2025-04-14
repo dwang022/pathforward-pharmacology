@@ -1,4 +1,3 @@
-
 //presidents
 import dshi from "./dshi.jpg";
 import daniel from "./daniel.jpg";
