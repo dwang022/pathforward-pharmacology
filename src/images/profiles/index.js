@@ -52,7 +52,7 @@ export const executive = [
     image: dshi,
     name: "Derek Shi",
     role: "President",
-    href: "https://www.linkedin.com/in/derek-shi-6331672aa",
+    href: "www.linkedin.com/in/derek-shi-6331672aa",
   },
 ];
 
