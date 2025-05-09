@@ -13,8 +13,24 @@ at DataRes.";
 <BaseLayout title="UCLA DataRes" desc={desc}>
   <div>
     <Hero color="bg-quaternary-light" invert>
-      <h1>Welcome to the home of Data Science at UCLA</h1>
-      <p>{desc}</p>
+      <div class="flex flex-col md:flex-row items-start md:items-center gap-8">
+        <div class="flex-1">
+          <h1>Welcome to the home of Data Science at UCLA</h1>
+          <p>{desc}</p>
+        </div>
+        <div class="flex-1 bg-white/10 p-6 rounded-lg backdrop-blur-sm">
+          <div class="font-serif">
+            <p class="text-lg mb-2">
+              <span class="font-bold">DataRes</span> 
+              <span class="text-sm italic">/ˈdɑːtə rɛs/</span>
+            </p>
+            <p class="text-sm italic mb-2">noun</p>
+            <p class="text-base">
+              A data science club fostering community and putting members first, both professionally and socially.
+            </p>
+          </div>
+        </div>
+      </div>
     </Hero>
     <div class="mx-auto max-w-6xl my-10 py-10" id="branches">
       <h1 class="text-center font-extrabold text-4xl mb-10">Branches</h1>
