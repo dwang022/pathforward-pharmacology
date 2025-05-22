@@ -6,9 +6,14 @@ const navClasses = [
   "inline-block",
   "rounded-lg",
   "py-1",
-  "px-2",
+  "px-3",
   "text-sm",
-  "",
+  "font-medium",
+  "transition-all",
+  "duration-300",
+  "relative",
+  "overflow-hidden",
+  "group",
 ];
 ---
 
@@ -52,56 +57,61 @@ const navClasses = [
                 class:list={[
                   ...navClasses,
                   currentPath === "/teams/datablog"
-                    ? "bg-slate-700 text-slate-100"
-                    : "text-slate-700 hover:bg-slate-100",
+                    ? "bg-gradient-to-r from-[#d22f40] to-[#5ec0bc] text-white"
+                    : "text-slate-700 hover:text-white",
                 ]}
                 href="/teams/datablog"
               >
-                Data Blog
+                <span class="relative z-10">Data Blog</span>
+                <span class="absolute inset-0 bg-gradient-to-r from-[#d22f40] to-[#5ec0bc] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
               </a>
               <a
                 class:list={[
                   ...navClasses,
                   currentPath === "/teams/consulting"
-                    ? "bg-slate-700 text-slate-100"
-                    : "text-slate-700 hover:bg-slate-100",
+                    ? "bg-gradient-to-r from-[#d22f40] to-[#5ec0bc] text-white"
+                    : "text-slate-700 hover:text-white",
                 ]}
                 href="/teams/consulting"
               >
-                Consulting
+                <span class="relative z-10">Consulting</span>
+                <span class="absolute inset-0 bg-gradient-to-r from-[#d22f40] to-[#5ec0bc] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
               </a>
               <a
                 class:list={[
                   ...navClasses,
                   currentPath === "/teams/research"
-                    ? "bg-slate-700 text-slate-100"
-                    : "text-slate-700 hover:bg-slate-100",
+                    ? "bg-gradient-to-r from-[#d22f40] to-[#5ec0bc] text-white"
+                    : "text-slate-700 hover:text-white",
                 ]}
                 href="/teams/research"
               >
-                Research
+                <span class="relative z-10">Research</span>
+                <span class="absolute inset-0 bg-gradient-to-r from-[#d22f40] to-[#5ec0bc] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
               </a>
               <a
                 class:list={[
                   ...navClasses,
                   currentPath === "/teams/datalearn"
-                    ? "bg-slate-700 text-slate-100"
-                    : "text-slate-700 hover:bg-slate-100",
+                    ? "bg-gradient-to-r from-[#d22f40] to-[#5ec0bc] text-white"
+                    : "text-slate-700 hover:text-white",
                 ]}
                 href="/teams/datalearn"
               >
-                DataLearn
+                <span class="relative z-10">DataLearn</span>
+                <span class="absolute inset-0 bg-gradient-to-r from-[#d22f40] to-[#5ec0bc] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
               </a>
               <a
                 class:list={[
                   ...navClasses,
                   currentPath === "/teams/datateach"
-                    ? "bg-slate-700 text-slate-100"
-                    : "text-slate-700 hover:bg-slate-100",
+                    ? "bg-gradient-to-r from-[#d22f40] to-[#5ec0bc] text-white"
+                    : "text-slate-700 hover:text-white",
                 ]}
                 href="/teams/datateach"
               >
-                DataTeach
+                <span class="relative z-10">DataTeach</span>
+                <span class="absolute inset-0 bg-gradient-to-r from-[#d22f40] to-[#5ec0bc] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
               </a>
             </div>
             <div class="hidden md:flex items-center gap-x-1 md:gap-x-8">
@@ -109,45 +119,49 @@ const navClasses = [
                 class:list={[
                   ...navClasses,
                   currentPath === "/about"
-                    ? "bg-slate-700 text-slate-100"
-                    : "text-slate-700 hover:bg-slate-100",
+                    ? "bg-gradient-to-r from-[#d22f40] to-[#5ec0bc] text-white"
+                    : "text-slate-700 hover:text-white",
                 ]}
                 href="/about"
               >
-                About
+                <span class="relative z-10">About</span>
+                <span class="absolute inset-0 bg-gradient-to-r from-[#d22f40] to-[#5ec0bc] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
               </a>
               <a
                 class:list={[
                   ...navClasses,
                   currentPath === "/who-we-are"
-                    ? "bg-slate-700 text-slate-100"
-                    : "text-slate-700 hover:bg-slate-100",
+                    ? "bg-gradient-to-r from-[#d22f40] to-[#5ec0bc] text-white"
+                    : "text-slate-700 hover:text-white",
                 ]}
                 href="/who-we-are"
               >
-                Who We Are
+                <span class="relative z-10">Who We Are</span>
+                <span class="absolute inset-0 bg-gradient-to-r from-[#d22f40] to-[#5ec0bc] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
               </a>
               <a
                 class:list={[
                   ...navClasses,
                   currentPath === "/events"
-                    ? "bg-slate-700 text-slate-100"
-                    : "text-slate-700 hover:bg-slate-100",
+                    ? "bg-gradient-to-r from-[#d22f40] to-[#5ec0bc] text-white"
+                    : "text-slate-700 hover:text-white",
                 ]}
                 href="/events"
               >
-                Events
+                <span class="relative z-10">Events</span>
+                <span class="absolute inset-0 bg-gradient-to-r from-[#d22f40] to-[#5ec0bc] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
               </a>
               <a
                 class:list={[
                   ...navClasses,
                   currentPath === "/join-us"
-                    ? "bg-slate-700 text-slate-100"
-                    : "text-slate-700 hover:bg-slate-100",
+                    ? "bg-gradient-to-r from-[#d22f40] to-[#5ec0bc] text-white"
+                    : "text-slate-700 hover:text-white",
                 ]}
                 href="/join-us"
               >
-                Join Us
+                <span class="relative z-10">Join Us</span>
+                <span class="absolute inset-0 bg-gradient-to-r from-[#d22f40] to-[#5ec0bc] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
               </a>
             </div>
             <div class="block md:hidden" id="hamburger">
