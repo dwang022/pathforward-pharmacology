@@ -1,0 +1,48 @@
+---
+layout: ../layouts/SimpleLayout.astro
+title: Leadership
+subtitle: PathForward Pharmacology is led by Dr. Hui Qin Wang, a preclinical pharmacologist with 20+ years of experience guiding oncology drug development at Novartis and EMD Serono.
+centered: true
+max_w: max-w-3xl
+---
+
+import Profile from "../components/Profile.astro";
+import founder from "../images/huiqin.jpg"; // replace with the actual headshot path
+
+# Our Founder
+
+<div class="flex flex-wrap justify-center gap-y-8">
+  <Profile 
+    image={founder} 
+    quality={98}
+    imageClass="w-64 h-64 object-cover rounded-full shadow-lg hover:shadow-xl transition-all duration-200"
+  >
+    <h1 class="mt-4 text-2xl font-semibold">Dr. Hui Qin Wang</h1>
+    <p class="text-lg text-gray-700">Founder & Senior Pharmacologist</p>
+    <p class="mt-3 text-gray-600 text-base leading-relaxed">
+      Dr. Wang is a preclinical pharmacologist specializing in oncology therapeutics—
+      from small molecules and biologics to ADCs and immune cell engagers. 
+      With over 20 years at Novartis and EMD Serono, she has empowered R&amp;D teams 
+      to make confident go/no-go decisions based on data packages spanning PK/PD, 
+      efficacy, and biomarker strategy. 
+
+      What sets her apart is her ability to integrate cutting-edge translational 
+      models, foster collaboration, and bring clarity to complex pharmacology 
+      challenges across discovery and early development.
+    </p>
+
+    {/* LinkedIn button */}
+    <a
+      href="https://www.linkedin.com/in/huiqinwang/"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="inline-flex items-center gap-2 mt-4 px-4 py-2 bg-[#0a66c2] text-white rounded-lg shadow-md hover:bg-[#004182] transition-all duration-200 text-sm font-medium"
+    >
+      <svg class="w-4 h-4 fill-current" viewBox="0 0 448 512" aria-hidden="true">
+        <path d="M100.28 448H7.4V148.9h92.88zm-46.44-341a53.64 53.64 0 1153.64-53.64 53.64 53.64 0 01-53.64 53.64zm394.34 341h-92.68V304.1c0-34.3-.7-78.3-47.7-78.3-47.7 0-55 37.3-55 75.9V448h-92.7V148.9h89V196h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z"/>
+      </svg>
+      Connect on LinkedIn
+    </a>
+  </Profile>
+</div>
+

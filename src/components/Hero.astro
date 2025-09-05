@@ -1,9 +1,11 @@
 ---
-const color = Astro.props.color ? Astro.props.color : "bg-slate-700";
-const invert = Astro.props.invert ? "" : "prose-invert";
+const color = Astro.props.color ? Astro.props.color : "bg-gradient-to-r from-brand-500 to-accent-500";
+const invert = Astro.props.invert ? "text-white" : "text-ink-700";
+const center = Astro.props.center ? "text-center items-center" : "text-left items-start";
 ---
-<div class={`py-20 px-10 ${color}`}>
-  <div class={`mx-auto prose ${invert}`}>
+
+<section class={`relative py-24 px-8 ${color} rounded-2xl shadow-inner`}>
+  <div class={`max-w-5xl mx-auto flex flex-col gap-6 ${invert} ${center}`}>
     <slot />
   </div>
-</div>
+</section>

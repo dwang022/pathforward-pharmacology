@@ -1,0 +1,54 @@
+---
+const {
+  title = "Preclinical Pharmacology for Confident Decisions",
+  subtitle = "Led by Dr. Hui Qin Wang, a preclinical pharmacologist with 20+ years in oncology drug development. From small molecules and biologics to ADCs and immune cell engagers, we integrate PK/PD, efficacy, and biomarker strategy to support clear go/no-go decisions.",
+  primaryHref = "/contact",
+  primaryText = "Contact Us",
+  secondaryHref = "/services",
+  secondaryText = "How We Help →",
+} = Astro.props;
+---
+
+<section
+  class="relative isolate overflow-hidden"
+  aria-label="PathForward Pharmacology – Hero"
+>
+  <!-- Background -->
+  <div class="absolute inset-0 -z-10 bg-gradient-to-br from-[#0ea5e9] via-[#22c55e] to-[#0ea5e9]"></div>
+  <!-- Subtle pattern -->
+  <div class="absolute inset-0 -z-10 opacity-10 pointer-events-none"
+       style="background-image: radial-gradient(closest-side, white 1px, transparent 1px);
+              background-size: 22px 22px;"></div>
+
+  <div class="mx-auto max-w-[90rem] px-6 lg:px-12 py-20 lg:py-28">
+    <div class="max-w-3xl text-white">
+      <h1 class="text-4xl lg:text-5xl font-semibold leading-tight tracking-tight drop-shadow-sm">
+        {title}
+      </h1>
+      <p class="mt-5 text-lg lg:text-xl/8 text-white/95">
+        {subtitle}
+      </p>
+
+      <div class="mt-8 flex flex-wrap items-center gap-4">
+        <a
+          href={primaryHref}
+          class="inline-flex items-center justify-center rounded-full bg-white text-[#0ea5e9] px-6 py-3 font-semibold shadow hover:bg-gray-50 transition"
+        >
+          {primaryText}
+        </a>
+        <a
+          href={secondaryHref}
+          class="inline-flex items-center justify-center rounded-full bg-white/10 text-white px-6 py-3 font-semibold ring-1 ring-white/40 hover:bg-white/15 transition"
+        >
+          {secondaryText}
+        </a>
+      </div>
+
+      <!-- Expertise tagline -->
+      <p class="mt-6 text-sm text-white/85">
+        Expertise in oncology pharmacology: PK/PD, biomarker strategy, efficacy modeling, and translational insight for small molecules, biologics, ADCs, and immune cell engagers.
+      </p>
+    </div>
+  </div>
+</section>
+

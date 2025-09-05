@@ -1,42 +1,52 @@
 ---
 layout: ../layouts/SimpleLayout.astro
-title: What is DataRes?
-subtitle: DataRes is UCLA's first and largest student organization dedicated to fostering knowledge and growth in data science. We provide a platform for aspiring data scientists and analysts to collaborate on impactful data projects. If you love playing with data, creating powerful visualizations, or building predictive models, you have a home at DataRes.
+title: About
+subtitle: Pharmacology-led consulting—helping biopharma teams make clear, evidence-driven decisions in R&D and development strategy.
 ---
 
-# Apply Today!
+# About PathForward Pharmacology
 
-## Fall 2025 Application Timeline: 
+**PathForward Pharmacology** is led by **Dr. Hui Qin Wang**, a preclinical pharmacologist with over 20 years of experience in oncology and translational drug development.  
+Her career spans small molecules, biologics, antibody–drug conjugates (ADCs), and immune cell engagers, with a focus on bridging preclinical science and clinical decision-making.
 
-1. Applications released: **September 23, 2025**
-2. Applications due: **October 4, 2025 @ 11:59 pm PT**.
-3. Decisions Released: **End of Week 2**.
+---
 
+## Our Expertise
 
-# Frequently Asked Questions
+Dr. Wang specializes in **empowering R&D teams to make confident go/no-go decisions** through data-driven pharmacology packages.  
+Her expertise includes:
 
-## What is DataRes?
+- **PK/PD integration** and dose rationale frameworks  
+- **Efficacy modeling** across small molecules, biologics, and next-gen modalities  
+- **Biomarker development** to guide translational strategy  
+- **Oncology therapeutics** from discovery through clinical proof-of-concept  
 
-At DataRes, we solve problems and craft stories with data. We provide a platform for aspiring data scientists, analysts, and machine learning enthusiasts to collaborate on impactful projects. If you love playing with data, creating powerful visualizations, or building predictive models, you have a home at DataRes.
+What sets her apart is her ability to **integrate cutting-edge translational models**, align cross-functional stakeholders, and bring clarity to complex pharmacology challenges.
 
-What teams does DataRes have?
+---
 
-- [DataLearn Team](/teams/datalearn) - This team is dedicated to teaching data science principles to a wider campus community at UCLA via a weekly educational series.
-- [Data Blog Team](/teams/datablog) - This team works on analytics-based projects, occasionally delving into simple machine learning algorithms, publishing their work as data-centric blog articles.
-- [Research Team](/teams/research) - This team specializes in taking the most up-to-date deep learning pipelines/technologies and applying them to areas of their interest. These ML areas include but are not limited to NLP, Computer Vision, GNNs, Reinforcement Learning, etc.
-- [Consulting Team](/teams/consulting) - This team offers consulting services to companies with a need for data science talent. One of our major companies is UCLA Athletics.
-- [DataTeach Team](/teams/datateach) - This team works with our educational outreach division to visit local high schools and teach the basics of data science/ We do not require any prior data science knowledge, but prefer experience in teaching and/or working with kids.
+## Our Philosophy
 
-## How many active members does DataRes have?
+At PathForward Pharmacology, we believe that **clarity drives confidence**.  
+By combining rigorous pharmacology with transparent analytics, we help teams cut through ambiguity, align on evidence, and move programs forward with conviction.
 
-After Spring quarter 2025, we have over 300 active members across all teams
+---
 
-## Where have past DataRes members worked as interns/full-time?
+## How We Support Clients
 
-Our members have gone on to work as data scientists, machine learning engineers, and software engineers at top tech companies like Google, Apple, Salesforce, Atlassian, Amazon, Adobe, Microsoft, Tesla, eBay, NASA, Meta, GenenTech, etc.
+- **Early development strategy** → dose setting, PK/PD, biomarker strategy  
+- **Evidence packages** → preclinical efficacy and biomarker data for stage-gates  
+- **Cross-functional collaboration** → translating findings for R&D, medical affairs, and market access  
 
-## How many teams can I apply to?
+---
 
-You may only submit one application and choose one team to apply to. Applying more than once will disqualify your application.
+## Why PathForward?
 
-If you have any additional questions, please email us at: datares@ucla.edu
+- **Deep oncology focus** with proven impact on go/no-go decisions  
+- **Breadth across modalities** (small molecules, biologics, ADCs, immune cell therapies)  
+- **Clarity and collaboration**—a partner who helps unify diverse scientific teams  
+
+---
+
+📩 Ready to discuss your program? Visit our **[Contact](/contact)** page or email **contact@pathforwardpharmacology.com**.
+

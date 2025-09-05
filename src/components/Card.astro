@@ -12,30 +12,33 @@ const { image, alt, href, prose } = Astro.props;
 ---
 
 <a
-  class="mx-auto w-64 block lg:h-64 lg:w-96 lg:inline-flex lg:items-center no-underline hover:bg-slate-50 rounded-lg"
   href={href}
+  class="group block max-w-sm mx-auto rounded-2xl border border-gray-200 bg-white shadow-sm overflow-hidden transition-all duration-300 hover:shadow-lg hover:-translate-y-1"
 >
-  {
-    image ? (
-      typeof image === "string" ? (
-        <img
-          class="w-full lg:px-6 lg:my-auto lg:h-auto lg:w-48"
-          src={image}
-          alt={alt}
-        />
-      ) : (
-        <Image
-          class="w-full lg:px-6 lg:my-auto lg:h-auto lg:w-48"
-          src={image}
-          alt={alt}
-          width={192} 
-          height={192}
-        />
-      )
-    ) : null
-  }
+  {image ? (
+    typeof image === "string" ? (
+      <img
+        src={image}
+        alt={alt}
+        class="h-48 w-full object-cover transition-transform duration-300 group-hover:scale-105"
+      />
+    ) : (
+      <Image
+        src={image}
+        alt={alt}
+        width={600}
+        height={400}
+        class="h-48 w-full object-cover transition-transform duration-300 group-hover:scale-105"
+      />
+    )
+  ) : null}
 
-  <div class={`px-6 py-4 ${prose ? "prose prose-h1:text-xl" : ""}`}>
-    <slot />
+  <div class={`p-6 ${prose ? "prose prose-h1:text-xl" : ""}`}>
+    <div class="text-lg font-semibold text-gray-900 group-hover:text-brand-600 transition-colors">
+      <slot name="title" />
+    </div>
+    <p class="mt-2 text-gray-600 text-sm leading-relaxed">
+      <slot />
+    </p>
   </div>
 </a>
