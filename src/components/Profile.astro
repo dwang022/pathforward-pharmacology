@@ -3,45 +3,51 @@ import { Image } from "astro:assets";
 
 interface Props {
   image: ImageMetadata;
-  href?: string;      // make link optional
-  name?: string;      // profile name
-  title?: string;     // role or expertise
+  href?: string;
+  width?: number;
+  height?: number;
+  quality?: number;
+  imageClass?: string;
 }
-const { image, href, name, title } = Astro.props;
+const {
+  image,
+  href,
+  width = 512,        // bigger intrinsic bitmap (crisper)
+  height = 512,
+  quality = 90,
+  imageClass = "",
+} = Astro.props;
 ---
 
-<div class="max-w-sm mx-auto text-center">
-  <div class="relative">
-    {href ? (
-      <a href={href}>
-        <Image
-          class="mx-auto rounded-full border-4 border-white shadow-lg"
-          src={image}
-          alt={name ?? "profile picture"}
-          width={192}
-          height={192}
-          format="webp"
-          quality={90}
-        />
-      </a>
-    ) : (
-      <Image
-        class="mx-auto rounded-full border-4 border-white shadow-lg"
-        src={image}
-        alt={name ?? "profile picture"}
-        width={192}
-        height={192}
-        format="webp"
-        quality={90}
-      />
-    )}
-  </div>
-
-  <div class="mt-4 px-4">
-    {name && <h3 class="text-xl font-semibold text-gray-900">{name}</h3>}
-    {title && <p class="text-sm text-gray-600">{title}</p>}
-    <div class="mt-3 prose prose-p:text-base text-gray-700">
+{href ? (
+  <a class="block no-underline text-center" href={href}>
+    <Image
+      class={`mx-auto ${imageClass}`}
+      src={image}
+      alt="profile picture"
+      width={width}
+      height={height}
+      format="webp"
+      quality={quality}
+    />
+    <div class="px-6 pb-10 prose prose-h1:text-xl">
+      <slot />
+    </div>
+  </a>
+) : (
+  <div class="block no-underline text-center">
+    <Image
+      class={`mx-auto ${imageClass}`}
+      src={image}
+      alt="profile picture"
+      width={width}
+      height={height}
+      format="webp"
+      quality={quality}
+    />
+    <div class="px-6 pb-10 prose prose-h1:text-xl">
       <slot />
     </div>
   </div>
-</div>
+)}
+
