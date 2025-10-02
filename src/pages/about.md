@@ -48,5 +48,5 @@ By combining rigorous pharmacology with transparent analytics, we help teams cut
 
 ---
 
-📩 Ready to discuss your program? Visit our **[Contact](/contact)** page or email **contact@pathforwardpharmacology.com**.
+📩 Ready to discuss your program? Visit our **[Contact](/contact)** page or email **hqwangaa@hotmail.com**.
 
