@@ -1,50 +1,50 @@
 ---
 layout: ../layouts/SimpleLayout.astro
 title: About
-subtitle: Pharmacology-led consulting—helping biopharma teams make clear, evidence-driven decisions in R&D and development strategy.
+subtitle: Pharmacology-led consulting — helping Biotechnology and Pharmaceutical Industry teams make data-driven decisions in oncology drug discovery and translational medicine.
 ---
 
 # About PathForward Pharmacology
 
-**PathForward Pharmacology** is led by **Dr. Hui Qin Wang**, a preclinical pharmacologist with over 20 years of experience in oncology and translational drug development.  
-Her career spans small molecules, biologics, antibody–drug conjugates (ADCs), and immune cell engagers, with a focus on bridging preclinical science and clinical decision-making.
+**PathForward Pharmacology** is led by **Dr. Hui Qin Wang**, an accomplished preclinical pharmacologist with over 20 years of specialized experience in oncology drug discovery and translational drug development. 
 
 ---
 
 ## Our Expertise
 
-Dr. Wang specializes in **empowering R&D teams to make confident go/no-go decisions** through data-driven pharmacology packages.  
-Her expertise includes:
+Dr. Wang specializes in delivering high-quality, comprehensive in vivo data packages that **empower R&D leaders to make confident, data-driven go/no-go decisions** and advance the most promising therapeutic candidates.
 
-- **PK/PD integration** and dose rationale frameworks  
-- **Efficacy modeling** across small molecules, biologics, and next-gen modalities  
-- **Biomarker development** to guide translational strategy  
-- **Oncology therapeutics** from discovery through clinical proof-of-concept  
+- Proven leadership in building **translational animal models**, including CDX, PDX, syngeneic, GEMM, and humanized mice.
+- Strategic design of **study protocols** to address critical questions around exposure, target modulation, and efficacy.
+- Broad experience across **therapeutic modalities**, including small molecules, biologics, antibody-drug conjugates, and immune cell engagers.
+- Integration of **biomarker strategies** into pharmacodynamic and efficacy studies to inform patient selection and in vivo target validation.
+- End-to-end **oncology drug development expertise** — from target identification and lead optimization to clinical proof-of-concept.
 
-What sets her apart is her ability to **integrate cutting-edge translational models**, align cross-functional stakeholders, and bring clarity to complex pharmacology challenges.
+What sets her apart is her ability to **translate complex pharmacology into actionable strategies, align cross-functional teams, and drive clarity in high-stakes decision-making.**
 
 ---
 
 ## Our Philosophy
 
-At PathForward Pharmacology, we believe that **clarity drives confidence**.  
-By combining rigorous pharmacology with transparent analytics, we help teams cut through ambiguity, align on evidence, and move programs forward with conviction.
+At PathForward Pharmacology, we believe that high-quality data packages from well-designed studies are essential to advancing projects and meeting IND filing requirements.
+
+By integrating robust pharmacology data with rigorous statistical analysis across multiple models, we enable project teams to move programs forward with **clarity and confidence.**
 
 ---
 
-## How We Support Clients
+## How We Support Clients 
 
-- **Early development strategy** → dose setting, PK/PD, biomarker strategy  
-- **Evidence packages** → preclinical efficacy and biomarker data for stage-gates  
-- **Cross-functional collaboration** → translating findings for R&D, medical affairs, and market access  
+- **Early Development Strategy** → Guidance on model selection, dosing regimens, PK/PD/efficacy design, and biomarker strategy to ensure translational relevance.
+- **Decision-Enabling Data Packages** → Integrated preclinical PK/PD, efficacy, and biomarker data to support confident go/no-go decisions.
+- **Cross-Functional Collaboration** → Partnering with biologists, chemists, PK scientists, toxicologists, and clinical leaders to translate preclinical findings into actionable clinical development strategies.
 
 ---
 
 ## Why PathForward?
 
-- **Deep oncology focus** with proven impact on go/no-go decisions  
-- **Breadth across modalities** (small molecules, biologics, ADCs, immune cell therapies)  
-- **Clarity and collaboration**—a partner who helps unify diverse scientific teams  
+- **Deep oncology expertise** with proven impact on driving go/no-go decisions.
+- **Broad experience across modalities** (small molecules, biologics, ADCs and immune cell therapies)
+- **Clear communication and collaborative partnership** that works well with diverse scientific teams.
 
 ---
 
